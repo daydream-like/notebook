@@ -139,6 +139,22 @@ if (setHeaders && typeof setHeaders !== 'function') {
 
   let encodingExt = ''
 ```
+这里就用到了上边的几个逻辑处理，首先是trailingSlash的判断，如果以/结尾会拼接index，以及如果当前path匹配为是一个目录以后，又会拼接一次index。
+所以一个简单的/加上index的参数就可以直接获取到/index/index。
+一个小小的彩蛋，实际开发中应该很少会这么玩
+
+最终的读取文件操作
+最后终于来到了文件读取的逻辑处理，首先就是调用setHeaders的操作。
+
+因为经过上边的层层筛选，这里拿到的path和你调用send时传入的path不是同一个路径。
+不过倒也没有必要必须在setHeaders函数中进行处理，因为可以看到在函数结束时，将实际的path返回了出来。
+我们完全可以在send执行完毕后再进行设置，至于官方readme中所写的and doing it after is too late because the headers are already sent.。
+这个不需要担心，因为koa的返回数据都是放到ctx.body中的，而body的解析是在所有的中间件全部执行完以后才会进行处理。
+也就是说所有的中间件都执行完以后才会开始发送http请求体，在此之前设置Header都是有效的。
+添加一个defer选项来决定是否先执行其他中间件。
+如果defer为false，则会先执行send，优先匹配静态文件。
+否则则会等到其余中间件先执行，确定其他中间件没有处理该请求才会去寻找对应的静态资源。
+只需指定root，剩下的工作交给koa-static，我们就无需关心静态资源应该如何处理了。
 
 
 
