@@ -4,7 +4,8 @@
   "description": "- <a href='https://github.com/daydream-like/notebook/issues/1'>koa2源码解读 </a> - <a href='https://github.com/daydream-like/notebook/issues/2'>throttle and debounce </a> - <a href='https://github.com/daydream-like/notebook/issues/3'>BST(二分查找树) </a> - <a href='https://github.com/daydream-like/notebook/issues/4'>重新学习promise</a>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/static.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   "homepage": "https://github.com/daydream-like/notebook#readme",
   "dependencies": {
     "koa": "^2.7.0",
-    "koa-static": "^5.0.0"
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "nodemon": "^1.18.11"
   }
 }
