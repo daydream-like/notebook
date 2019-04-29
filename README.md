@@ -2,3 +2,4 @@
 - <a href='https://github.com/daydream-like/notebook/issues/1'>koa2源码解读 </a>
 - <a href='https://github.com/daydream-like/notebook/issues/2'>throttle and debounce </a>
 - <a href='https://github.com/daydream-like/notebook/issues/3'>BST(二分查找树) </a>
+- <a href='https://github.com/daydream-like/notebook/issues/4'>手动实现一个koa-static</a>
