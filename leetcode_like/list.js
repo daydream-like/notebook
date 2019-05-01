@@ -76,7 +76,20 @@ class List {
     toString() {
         return this.dataStore;
     }
+    insert(ele, after) {
+        let insertPos = this.find(after);
+        if (insertPos > -1) {
+            this.dataStore.splice(insertPos, 0, ele);
+            this.listSize++;
+            return true;
+        }
+        return false;
+    }
+    clean() {
+        this.dataStore = [];
+        this.listSize = 0;
+        this.pos = 0;
+    }
 
 }
-
 module.exports = List;
