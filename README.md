@@ -4,4 +4,4 @@
 - <a href='https://github.com/daydream-like/notebook/blob/master/src/static.md'>koa-static源码解读</a>
 - <a href='https://github.com/daydream-like/notebook/issues/3'>BST </a>
 - 数据结构和算法 
-  - <a href='https://github.com/daydream-like/notebook/blob/master/src/leetcode_like/list.js'>list列表</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/list.js'>list列表</a>
