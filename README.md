@@ -8,3 +8,5 @@
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/list.test.js'>list列表单元测试</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/stack.js'>stack</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/stack.test.js'>stack单元测试</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/queue.js'>queue</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/queue.test.js'>queue单元测试</a>
