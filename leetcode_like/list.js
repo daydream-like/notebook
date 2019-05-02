@@ -90,6 +90,39 @@ class List {
         this.listSize = 0;
         this.pos = 0;
     }
+    contains(ele) {
+        for (let i = 0; i < this.dataStore.length; i++) {
+            if (this.dataStore[i] === ele) {
+                return true;
+            }
+        }
+        return false;
+    }
+    front() {
+        this.pos = 0;
+    }
+    end() {
+        this.pos = this.listSize;
+    }
+    prev() {
+        if (this.pos > 0) {
+            this.pos--
+        }
+    }
+    next() {
+        if (this.pos < this.listSize) {
+            this.pos++
+        }
+    }
+    curPos() {
+        return this.pos
+    }
+    moveTo(position) {
+        this.pos = position
+    }
+    getElement() {
+        return this.dataStore[this.pos]
+    }
 
 }
 module.exports = List;
