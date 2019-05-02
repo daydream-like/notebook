@@ -1,9 +1,9 @@
-let Queue = require('./queue');
+let {Queue} = require('./queue');
 let expect = require('chai').expect;
 const assert = require('assert');
 
 
-describe('队列测试', function () {
+describe('queue test', function () {
     it('出队入队测试', function () {
         let q = new Queue();
         q.enqueue('like');
