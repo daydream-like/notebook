@@ -47,6 +47,18 @@ function isPalindrome(word) {
     }
     return false;
 }
-
-console.log(isPalindrome('dad'))
-module.exports = isPalindrome;
+function fact(n) {
+    var s = new Stack();
+    while (n > 1) {
+        s.push(n--);
+    }
+    var result = 1;
+    while (s.length() > 0) {
+        result *= s.pop();
+    }
+    return result;
+}
+module.exports = {
+    isPalindrome,
+    fact
+};
