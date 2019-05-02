@@ -6,3 +6,5 @@
 - 数据结构和算法 
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/list.js'>list列表</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/list.test.js'>list列表单元测试</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/list.js'>stack</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/list.test.js'>stack单元测试</a>
