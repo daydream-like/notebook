@@ -14,3 +14,5 @@
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/link.test.js'>link单元测试</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/dictionary.js'>dictionary</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/dictionary.test.js'>dictionary单元测试</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/hash.js'>散列</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/hash.test.js'>散列单元测试</a>
