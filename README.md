@@ -26,3 +26,5 @@
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/search.test.js'>查找算法单元测试</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/DynamicProgramming.js'>longest common subsequence</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/DynamicProgramming.test.js'>longest common subsequence单元测试</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/Knapsackproblem.js'>Knapsackproblem</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/Knapsackproblem.test.js'>Knapsackproblem单元测试</a>
