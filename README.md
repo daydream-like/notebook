@@ -22,3 +22,5 @@
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/graph.test.js'>图单元测试</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/sort.js'>排序算法</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/sort.test.js'>排序算法单元测试</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/search.js'>查找算法</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/search.test.js'>查找算法单元测试</a>
