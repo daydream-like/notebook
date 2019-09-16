@@ -29,3 +29,7 @@
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/DynamicProgramming.test.js'>longest common subsequence单元测试</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/Knapsackproblem.js'>Knapsackproblem</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/Knapsackproblem.test.js'>Knapsackproblem单元测试</a>
+
+- leetcode
+ - - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/Knapsackproblem.js'>twoSum</a>
+  - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/twoSum.test.js'>twoSum单元测试</a>
