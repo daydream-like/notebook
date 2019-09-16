@@ -3,7 +3,8 @@
 - <a href='https://github.com/daydream-like/notebook/issues/2'>throttle and debounce </a>
 - <a href='https://github.com/daydream-like/notebook/blob/master/src/static.md'>koa-static源码解读</a>
 - <a href='https://github.com/daydream-like/notebook/blob/master/src/static.md'>koa-static源码解读</a>
-- <a href='http://note.youdao.com/noteshare?id=6c2b0350a2fd4125fa26d7f4b31016e3'>给vue提个PR(一个数组引发的血案) </a>
+- <a href='https://juejin.im/post/5cfb4a7c5188252c8205e3a4'>给vue提个PR(一个数组引发的血案) </a>
+- <a href='https://juejin.im/post/5d286f2a51882557e1178f70'>nodejs日志中间件log4js引起的血案 </a>
 - 数据结构和算法 
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/list.js'>list列表</a>
   - <a href='https://github.com/daydream-like/notebook/blob/master/leetcode_like/list.test.js'>list列表单元测试</a>
